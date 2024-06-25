@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "traffic_signal",
+        "status": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "traffic_signal",
+        "status": "green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4184, 37.7750]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "traffic_flow",
+        "speed": "slow"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4194, 37.7749],
+          [-122.4184, 37.7750]
+        ]
+      }
+    }
+  ]
+}
