@@ -6,7 +6,7 @@ public class Auction
 
     public int ReservePrice { get; set; } = 0;
 
-    public string Seller { get; set; }
+    public string Seller { get; protected set; }
 
     public string Winner { get; set; }
 
