@@ -97,7 +97,7 @@ public class AuctionsController : ControllerBase
 
         if (result) return Ok();
 
-        return BadRequest("Problem saving");
+        return BadRequest("");
     }
 
     [HttpDelete("{id}")]
